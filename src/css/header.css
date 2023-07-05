@@ -1,0 +1,90 @@
+@import url(variables.css);
+.headerpart {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+.menupart ul {
+  display: flex;
+}
+.menupart ul li {
+  margin: 0 30px;
+}
+.mr-26 {
+  margin-right: 26px;
+}
+.menupart ul li a {
+  font-size: 16px;
+  color: var(--whitecolor);
+  letter-spacing: 0.44px;
+}
+
+.headerwrapper {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+.logopart svg {
+  width: 92px;
+}
+.menupart ul li a:where(.css-dev-only-do-not-override-1wazalj).ant-typography {
+  color: var(--whitecolor) !important;
+  padding-bottom: 10px;
+  position: relative;
+  font-size: 18px;
+}
+.menupart
+  ul
+  li
+  a:where(.css-dev-only-do-not-override-1wazalj).ant-typography::after {
+  content: "";
+  position: absolute;
+  background: var(--pinkcolor);
+  width: 0;
+  height: 2px;
+  border-radius: 6px;
+  bottom: 0;
+  left: 0;
+}
+.commonbtn {
+  margin-left: 15px;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--primary_color);
+  z-index: 4;
+  width: 100%;
+  transition: all 0.5s ease-in-out 0s;
+}
+.fixed .headerpart {
+  padding: 5px 0;
+}
+@media (min-width: 1025px) {
+  .menupart
+    ul
+    li
+    a:where(.css-dev-only-do-not-override-1wazalj).ant-typography:hover:after {
+    width: 100%;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  .commonbtn
+    .signupbtn
+    a.ant-typography.css-dev-only-do-not-override-1wazalj:hover {
+    background: var(--whitecolor);
+    border-color: var(--primary_color);
+    color: var(--primary_color) !important;
+  }
+}
+@media (max-width: 1400px) {
+  .menupart
+    ul
+    li
+    a:where(.css-dev-only-do-not-override-1wazalj).ant-typography {
+    font-size: 16px;
+  }
+}

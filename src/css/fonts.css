@@ -1,0 +1,379 @@
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-Bold.eot");
+  src: local("../fonts/Buenos Aires Bold"), local("BuenosAires-Bold"),
+    url("../fonts/BuenosAires-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BuenosAires-Bold.woff2") format("woff2"),
+    url("../fonts/BuenosAires-Bold.woff") format("woff"),
+    url("../fonts/BuenosAires-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-LightItalic.eot");
+  src: local("../fonts/Buenos Aires Light Italic"),
+    local("BuenosAires-LightItalic"),
+    url("../fonts/BuenosAires-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BuenosAires-LightItalic.woff2") format("woff2"),
+    url("../fonts/BuenosAires-LightItalic.woff") format("woff"),
+    url("../fonts/BuenosAires-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-Regular.eot");
+  src: local("../fonts/Buenos Aires Regular"), local("BuenosAires-Regular"),
+    url("../fonts/BuenosAires-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BuenosAires-Regular.woff2") format("woff2"),
+    url("../fonts/BuenosAires-Regular.woff") format("woff"),
+    url("../fonts/BuenosAires-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-BoldItalic.eot");
+  src: local("../fonts/Buenos Aires Bold Italic"),
+    local("BuenosAires-BoldItalic"),
+    url("../fonts/BuenosAires-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BuenosAires-BoldItalic.woff2") format("woff2"),
+    url("../fonts/BuenosAires-BoldItalic.woff") format("woff"),
+    url("../fonts/BuenosAires-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-SemiBold.eot");
+  src: local("../fonts/Buenos Aires SemiBold"), local("BuenosAires-SemiBold"),
+    url("../fonts/BuenosAires-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BuenosAires-SemiBold.woff2") format("woff2"),
+    url("../fonts/BuenosAires-SemiBold.woff") format("woff"),
+    url("../fonts/BuenosAires-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-SemiBoldItalic.eot");
+  src: local("../fonts/Buenos Aires SemiBold Italic"),
+    local("BuenosAires-SemiBoldItalic"),
+    url("../fonts/BuenosAires-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BuenosAires-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/BuenosAires-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/BuenosAires-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-Thin.eot");
+  src: local("Buenos Aires Thin"), local("BuenosAires-Thin"),
+    url("../fonts/BuenosAires-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BuenosAires-Thin.woff2") format("woff2"),
+    url("../fonts/BuenosAires-Thin.woff") format("woff"),
+    url("../fonts/BuenosAires-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-ThinItalic.eot");
+  src: local("../fonts/Buenos Aires Thin Italic"),
+    local("BuenosAires-ThinItalic"),
+    url("../fonts/BuenosAires-ThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BuenosAires-ThinItalic.woff2") format("woff2"),
+    url("../fonts/BuenosAires-ThinItalic.woff") format("woff"),
+    url("../fonts/BuenosAires-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-Book.eot");
+  src: local("../fonts/Buenos Aires Book"), local("BuenosAires-Book"),
+    url("../fonts/BuenosAires-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BuenosAires-Book.woff2") format("woff2"),
+    url("../fonts/BuenosAires-Book.woff") format("woff"),
+    url("../fonts/BuenosAires-Book.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-BookItalic.eot");
+  src: local("../fonts/Buenos Aires Book Italic"),
+    local("BuenosAires-BookItalic"),
+    url("../fonts/BuenosAires-BookItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BuenosAires-BookItalic.woff2") format("woff2"),
+    url("../fonts/BuenosAires-BookItalic.woff") format("woff"),
+    url("../fonts/BuenosAires-BookItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-Light.eot");
+  src: local("../fonts/Buenos Aires Light"), local("BuenosAires-Light"),
+    url("../fonts/BuenosAires-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BuenosAires-Light.woff2") format("woff2"),
+    url("../fonts/BuenosAires-Light.woff") format("woff"),
+    url("../fonts/BuenosAires-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-Black.eot");
+  src: local("../fonts/Buenos Aires Black"), local("BuenosAires-Black"),
+    url("../fonts/BuenosAires-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BuenosAires-Black.woff2") format("woff2"),
+    url("../fonts/BuenosAires-Black.woff") format("woff"),
+    url("../fonts/BuenosAires-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-BlackItalic.eot");
+  src: local("../fonts/Buenos Aires Black Italic"),
+    local("BuenosAires-BlackItalic"),
+    url("../fonts/BuenosAires-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BuenosAires-BlackItalic.woff2") format("woff2"),
+    url("../fonts/BuenosAires-BlackItalic.woff") format("woff"),
+    url("../fonts/BuenosAires-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../fonts/BuenosAires-RegularItalic.eot");
+  src: local("../fonts/Buenos Aires Regular Italic"),
+    local("BuenosAires-RegularItalic"),
+    url("../fonts/BuenosAires-RegularItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BuenosAires-RegularItalic.woff2") format("woff2"),
+    url("../fonts/BuenosAires-RegularItalic.woff") format("woff"),
+    url("../fonts/BuenosAires-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v20-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-300italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/poppins-v20-latin-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v20-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/poppins-v20-latin-800italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/poppins-v20-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/poppins-v20-latin-900italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/nunito-sans-v15-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-300italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/nunito-sans-v15-latin-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nunito-sans-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/nunito-sans-v15-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/nunito-sans-v15-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/nunito-sans-v15-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/nunito-sans-v15-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/nunito-sans-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/nunito-sans-v15-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

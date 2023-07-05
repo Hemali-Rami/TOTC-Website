@@ -1,0 +1,77 @@
+@import url(./variables.css);
+:where(.css-dev-only-do-not-override-1wazalj).ant-btn-default:not(
+    :disabled
+  ):hover {
+  background: transparent !important;
+  color: var(--primary_color) !important;
+  border-color: var(--primary_color) !important;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-checkbox .ant-checkbox-inner {
+  width: 15px !important;
+  height: 15px !important;
+  border-color: var(--blackcolor) !important;
+  border-radius: 0px !important;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-checkbox-checked
+  .ant-checkbox-inner {
+  background-color: var(--primary_color) !important;
+  border-color: var(--primary_color) !important;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-typography {
+  font-size: 12px;
+  /* color: var(--blackcolor) !important; */
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-typography:hover {
+  color: var(--primary_color) !important;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-checkbox + span {
+  font-size: 12px !important;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-input {
+  border-color: var(--primary_color);
+  border-radius: 40px;
+  padding: 15px 31px;
+  font-size: 15px;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-input:focus,
+:where(.css-dev-only-do-not-override-1wazalj).ant-input-focused {
+  border-color: var(--primary_color);
+}
+:where(
+    .css-dev-only-do-not-override-1wazalj
+  ).ant-input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--placeholdercolor);
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--placeholdercolor);
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--placeholdercolor);
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--placeholdercolor);
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-input-affix-wrapper {
+  border-color: var(--primary_color);
+  border-radius: 40px;
+  padding: 15px 31px;
+  font-size: 15px;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-tabs .ant-tabs-tab {
+  font-size: 16px;
+}
+.loginformmain {
+  margin-top: 22px;
+}
+
+@media (max-width: 991px) {
+  :where(.css-dev-only-do-not-override-1wazalj).ant-input,
+  :where(.css-dev-only-do-not-override-1wazalj).ant-input-affix-wrapper {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}

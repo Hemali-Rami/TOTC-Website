@@ -1,0 +1,130 @@
+@import url(./variables.css);
+.loginpart {
+  padding: 41px 12px;
+}
+.tabs .ant-tabs-nav-list {
+  background: rgba(73, 187, 189, 0.6);
+  padding: 10px 13px;
+  border-radius: 33px;
+  width: 100%;
+  max-width: 70%;
+}
+.tabs
+  :where(.css-dev-only-do-not-override-1wazalj).ant-tabs
+  .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  background: var(--primary_color);
+  color: #fff;
+}
+.tabs
+  :where(.css-dev-only-do-not-override-1wazalj).ant-tabs
+  .ant-tabs-tab
+  .ant-tabs-tab-btn {
+  padding: 8px 20px;
+  border-radius: 33px;
+  color: var(--whitecolor);
+  width: 100%;
+  text-align: center;
+}
+.tabs .ant-tabs-ink-bar {
+  display: none;
+  padding: 0;
+}
+.tabs .ant-tabs-tab {
+  padding: 0 !important;
+  width: 50%;
+}
+.tabs .ant-tabs-nav-wrap {
+  width: 100%;
+  justify-content: center;
+}
+.tabs .ant-tabs-top > .ant-tabs-nav::before {
+  display: none !important;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-tabs {
+  font-family: "Poppins";
+}
+.tabs span.subtitle {
+  margin-bottom: 24px;
+  display: block;
+}
+.tabs {
+  text-align: center;
+}
+.loginimagepart {
+  position: relative;
+}
+.logintext {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 55px 69px;
+}
+.logintext h1 {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 56px;
+  color: #fff;
+}
+.logintext h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: #fff;
+}
+.commoninput {
+  text-align: left;
+  margin-top: 30px;
+}
+.loginform {
+  margin-top: 12px;
+}
+.loginformmain {
+  max-width: 454px;
+  margin: auto;
+  text-align: left;
+}
+.commoninput label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--blackcolor);
+  margin-bottom: 12px;
+  width: 100%;
+}
+.passwordfield label {
+  width: 100%;
+}
+@media (max-width: 1199px) {
+  .logintext {
+    padding: 15px 30px;
+  }
+}
+@media (max-width: 991px) {
+  .logintext h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .logintext h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .commoninput {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .loginimagepart {
+    display: none;
+  }
+  .tabs .ant-tabs-nav-list {
+    max-width: 100%;
+  }
+  :where(.css-dev-only-do-not-override-1wazalj).ant-tabs
+    .ant-tabs-tab
+    + .ant-tabs-tab {
+    margin: 0 ;
+  }
+}

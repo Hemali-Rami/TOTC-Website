@@ -1,0 +1,84 @@
+@import url(./bootstrap.min.css);
+@import url(./login.css);
+@import url(./fonts.css);
+@import url(./variables.css);
+@import url(./ant-override.css);
+@import url(./home.css);
+@import url(./header.css);
+@import url(./footer.css);
+img {
+  max-width: 100%;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+a,
+span {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Poppins";
+}
+.mx-22 {
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+.mt-42 {
+  margin-top: 42px;
+}
+.commonbtn button span {
+  color: var(--whitecolor);
+  font-size: 16px;
+  padding: 13px 35px;
+  display: inline-block;
+  width: 100%;
+}
+.commonbtn button {
+  border-color: var(--primary_color);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: var(--primary_color);
+  height: auto;
+}
+.loginbtn button {
+  min-width: 232px;
+}
+.commonbtn button:hover span {
+  color: var(--primary_color) !important;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-typography,
+:where(.css-dev-only-do-not-override-1wazalj).ant-input {
+  font-family: "Poppins" !important;
+}
+a:hover {
+  transition: all 0.5s ease-in-out 0s;
+}
+.loadermain {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+  width: 100%;
+}
+.loadermain p {
+  font-size: 42px;
+  font-weight: 700;
+}

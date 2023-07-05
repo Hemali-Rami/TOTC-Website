@@ -1,0 +1,198 @@
+:root {
+  --primary_color: #49bbbd;
+  --whitecolor: #fff;
+  --blackcolor: #000;
+  --placeholdercolor: #acacac;
+  --btngraycolor: #5b5b5b;
+  --orangecolor: #f48c06;
+  --pinkcolor: #d8587e;
+  --greencolor: #2ebb5e;
+  --useexpborder_color: #fbecd7;
+  --transparentwhite: rgba(255, 255, 255, 0.3);
+  --headblue: #2f327d;
+  --headgreen: #00cbb8;
+  --featureparagraph: #696984;
+  --featuredarkblue: #5b72ee;
+  --featuregreen: #00cbb8;
+  --featureblue: #29b9e7;
+  --bluetransparent: rgba(35, 189, 238, 0.9);
+  --greenpatterncolor: #33efa0;
+  --bluepatterncolor: #23bdee;
+  --lightwhitecolor: #fbfbfb;
+  --secondblackcolor: #252641;
+  --coursemainsectioncolor: rgba(157, 204, 255, 0.2);
+  --transparentblack: rgba(0, 0, 0, 0.54);
+  --transparentdarkblack: rgba(0, 0, 0, 0.87);
+  --courseblue: #00bcd4;
+  --coursefootbg: rgba(0, 0, 0, 0.1);
+  --testimonialsubhead: #525596;
+  --testiheadingcolor: #2f327d;
+  --testimonialreviewline: #f67766;
+  --testimonialparacolor: #5f5f7e;
+  --testimonialtotalreviewcolor: #80819a;
+  --testimonialdividercolor: #bdbdd1;
+  --testimonialslider: #1ea4ce;
+  --newsheadingcolor: #252641;
+  --newletterhead: #b2b3cf;
+  --newsletterborder: #83839a;
+}
+.commonbtn a,
+.commonbtn a:where(.css-dev-only-do-not-override-1wazalj).ant-typography {
+  border: 1px solid var(--whitecolor);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: var(--whitecolor);
+  height: auto;
+  padding: 12px 30px;
+  display: inline-block;
+  color: var(--btngraycolor) !important;
+  font-size: 17px;
+  box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+.pinkbtn a,
+.pinkbtn a:where(.css-dev-only-do-not-override-1wazalj).ant-typography {
+  border: 1px solid var(--pinkcolor);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: var(--pinkcolor);
+  height: auto;
+  padding: 12px 30px;
+  display: inline-block;
+  color: var(--whitecolor) !important;
+  font-size: 17px;
+  box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+  font-family: "Nunito Sans" !important;
+}
+.transparentwhitebtn a,
+.transparentwhitebtn
+  a:where(.css-dev-only-do-not-override-1wazalj).ant-typography {
+  border: 1px solid var(--transparentwhite);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: var(--transparentwhite);
+  color: var(--whitecolor) !important;
+  height: auto;
+  padding: 12px 30px;
+  display: inline-block;
+  font-size: 17px;
+  box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+.whitetransparent a {
+  border: 1px solid var(--whitecolor);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: transparent;
+  color: var(--whitecolor) !important;
+  height: auto;
+  padding: 12px 30px;
+  display: inline-block;
+  font-size: 17px;
+  box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+.bluetransbtn a {
+  border: 1px solid var(--bluetransparent);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: var(--bluetransparent);
+  color: var(--whitecolor) !important;
+  height: auto;
+  padding: 12px 30px;
+  display: inline-block;
+  font-size: 17px;
+  box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+.bordergreenbtn a {
+  border: 1px solid var(--primary_color);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: transparent;
+  color: var(--primary_color) !important;
+  height: auto;
+  padding: 12px 30px;
+  display: inline-block;
+  font-size: 17px;
+  box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+.tetimonialbtn a {
+  border: 1px solid var(--primary_color);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: transparent;
+  color: var(--primary_color) !important;
+  height: auto;
+  padding: 22px 38px;
+  padding-right: 108px;
+  display: inline-block;
+  font-size: 17px;
+  position: relative;
+  border-right: 0px;
+}
+.greenbtn a,
+.greenbtn a:where(.css-dev-only-do-not-override-1wazalj).ant-typography {
+  border: 1px solid var(--primary_color);
+  padding: 0;
+  border-radius: 36px;
+  display: inline-block;
+  background: var(--primary_color);
+  height: auto;
+  padding: 12px 30px;
+  display: inline-block;
+  color: var(--whitecolor) !important;
+  font-size: 17px;
+  box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+@media (min-width: 1025px) {
+  .commonbtn a:hover,
+  .commonbtn
+    a:where(.css-dev-only-do-not-override-1wazalj).ant-typography:hover {
+    border-color: var(--whitecolor);
+    background: var(--primary_color);
+    color: var(--whitecolor) !important;
+  }
+  .pinkbtn a:hover,
+  .pinkbtn a:where(.css-dev-only-do-not-override-1wazalj).ant-typography:hover {
+    border-color: var(--pinkcolor);
+    background: var(--whitecolor);
+    color: var(--pinkcolor) !important;
+  }
+  .transparentwhitebtn a:hover,
+  .transparentwhitebtn
+    a:where(.css-dev-only-do-not-override-1wazalj).ant-typography:hover {
+    border-color: var(--primary_color);
+    background: var(--whitecolor);
+    color: var(--primary_color) !important;
+  }
+  .whitetransparent a:hover,
+  .bluetransbtn a:hover {
+    border-color: var(--primary_color);
+    background: var(--primary_color);
+    color: var(--whitecolor) !important;
+  }
+  .bordergreenbtn a:hover {
+    border-color: var(--primary_color);
+    background: var(--primary_color);
+    color: var(--whitecolor) !important;
+  }
+  .greenbtn a:hover,
+  .greenbtn
+    a:where(.css-dev-only-do-not-override-1wazalj).ant-typography:hover {
+    border-color: var(--primary_color);
+    background: transparent;
+    color: var(--primary_color) !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .commonbtn a,
+  .pinkbtn a,
+  .transparentwhitebtn a {
+    font-size: 16px;
+  }
+}

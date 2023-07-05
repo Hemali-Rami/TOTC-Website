@@ -1,0 +1,120 @@
+.footerwrap {
+  background: var(--secondblackcolor);
+  padding-top: 74px;
+}
+.footerpart {
+  text-align: center;
+}
+.productinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerlogo {
+  padding-right: 77px;
+}
+.footertag {
+  padding-left: 41px;
+  border-left: 1px solid var(--whitecolor);
+  text-align: left;
+}
+.footertag h5 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.88px;
+  color: var(--whitecolor);
+  width: 156px;
+  line-height: 1.8;
+}
+.footernewsletter {
+  padding-top: 95px;
+}
+.footernewsletter h3 {
+  color: var(--newletterhead);
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1.04px;
+  margin-bottom: 20px;
+}
+.newsletterinput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletterinput .ant-input {
+  width: 400px;
+  background: transparent;
+}
+.newsletterinput :where(.css-dev-only-do-not-override-1wazalj).ant-input {
+  border-color: var(--newsletterborder) !important;
+  color: var(--newsletterborder);
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.footermenus ul {
+  display: flex;
+  justify-content: center;
+}
+.footermenus ul li {
+  padding: 0 20px;
+  position: relative;
+}
+.footermenus ul li:after {
+  content: "";
+  position: absolute;
+  background: var(--newletterhead);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 1px;
+  height: 100%;
+}
+.footermenus ul li a {
+  letter-spacing: 0.88px;
+  font-size: 22px;
+  color: var(--newletterhead);
+}
+.footermenus ul li:last-child:after {
+  display: none;
+}
+.footermenus {
+  padding-top: 96px;
+  padding-bottom: 20px;
+}
+.copyrighttxt {
+  padding-bottom: 40px;
+}
+.copyrighttxt p {
+  font-size: 22px;
+  color: var(--newletterhead);
+  letter-spacing: 0.88px;
+}
+/* back to top css start */
+.backtotop {
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background: var(--primary_color);
+  border-radius: 100%;
+  border: 1px solid var(--whitecolor);
+  color: var(--whitecolor);
+  z-index: 4;
+}
+.backtotop span {
+  display: block;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  border:solid var(--whitecolor);
+}
+@media (max-width:1400px) {
+  .footermenus ul li a,.copyrighttxt p{
+    font-size: 16px;
+  }
+}
