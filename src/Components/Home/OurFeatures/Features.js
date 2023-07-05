@@ -8,7 +8,7 @@ import inter_one from "../../../images/Home/OurFeature/interface_one.png";
 import inter_two from "../../../images/Home/OurFeature/interface_two.png";
 import inter_three from "../../../images/Home/OurFeature/interface_three.svg";
 import Link from "antd/es/typography/Link";
-
+import Fade from "react-reveal/Fade";
 const Features = () => {
   const feature = [
     {
@@ -83,46 +83,51 @@ Student results are automatically entered in the online gradebook.`,
           <div className="featuresboxwrap">
             {feature.map((fdata, index) => {
               const { image, title, para } = fdata;
+              const isOddClass = index % 2 === 0;
+              const animationProps = isOddClass
+                ? { left: true }
+                : { right: true };
               return (
-                <div
-                  className={`row ${
-                    index % 2 === 0 ? "oddclass" : "evenclass"
-                  }`}
-                  key={index}
-                >
-                  <div className="col-md-6">
-                    <div className="featureimage">
-                      <img src={image} alt={title} />
+                <Fade {...animationProps} key={index}>
+                  <div
+                    className={`row ${
+                      index % 2 === 0 ? "oddclass" : "evenclass"
+                    }`}
+                  >
+                    <div className="col-md-6">
+                      <div className="featureimage">
+                        <img src={image} alt={title} />
+                      </div>
                     </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="featurecontentmain">
-                      <h4>{title}</h4>
-                      <div className="featurecontent">
-                        {Array.isArray(para) ? (
-                          para.map((paraItem, paraIndex) => (
-                            <ul>
-                              <li
-                                className="d-flex align-items-center"
-                                key={paraIndex}
-                              >
-                                <div className="paraicon">
-                                  <img
-                                    src={paraItem.paraimage}
-                                    alt={`Paragraph ${paraIndex + 1}`}
-                                  />
-                                </div>
-                                <p>{paraItem.paragraph}</p>
-                              </li>
-                            </ul>
-                          ))
-                        ) : (
-                          <p>{para}</p>
-                        )}
+                    <div className="col-md-6">
+                      <div className="featurecontentmain">
+                        <h4>{title}</h4>
+                        <div className="featurecontent">
+                          {Array.isArray(para) ? (
+                            para.map((paraItem, paraIndex) => (
+                              <ul>
+                                <li
+                                  className="d-flex align-items-center"
+                                  key={paraIndex}
+                                >
+                                  <div className="paraicon">
+                                    <img
+                                      src={paraItem.paraimage}
+                                      alt={`Paragraph ${paraIndex + 1}`}
+                                    />
+                                  </div>
+                                  <p>{paraItem.paragraph}</p>
+                                </li>
+                              </ul>
+                            ))
+                          ) : (
+                            <p>{para}</p>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </Fade>
               );
             })}
           </div>
